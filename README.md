@@ -14,5 +14,5 @@ A Docker image for Python development.
 
 ## Python packages
 
-* pip=7.1.1
+* pip=7.1.2
 * tox

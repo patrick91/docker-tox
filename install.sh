@@ -2,7 +2,7 @@
 
 PYTHON_VERSIONS=(2.7.10 3.4.3 3.5.0rc1)
 PYTHON_GLOBAL_VERSION=3.4.3
-PYTHON_PIP_VERSION=7.1.1
+PYTHON_PIP_VERSION=7.1.2
 
 apk --update add curl ca-certificates git build-base \
     libffi-dev openssl-dev libbz2 libc6-compat ncurses-dev readline-dev \
