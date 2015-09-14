@@ -10,7 +10,7 @@ A Docker image for Python development.
 
 * 2.7.10
 * 3.4.3
-* 3.5.0rc1
+* 3.5.0
 
 ## Python packages
 
