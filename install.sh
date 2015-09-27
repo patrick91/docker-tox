@@ -7,7 +7,7 @@ PYTHON_PIP_VERSION=7.1.2
 apk --update add curl ca-certificates git build-base \
     libffi-dev openssl-dev libbz2 libc6-compat ncurses-dev readline-dev \
     xz-dev zlib-dev sqlite-dev patch bzip2-dev expat-dev zlib-dev \
-    gdbm-dev paxmark linux-headers tcl-dev
+    gdbm-dev paxmark linux-headers tcl-dev libjpeg-turbo-dev
 
 # Install pyenv
 curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer -o /pyenv-installer
