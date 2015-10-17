@@ -4,7 +4,7 @@ A Docker image for Python development.
 
 ## OS
 
-* Latest Alpine Linux
+* Ubuntu 14.04
 
 ## Python versions
 
