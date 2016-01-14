@@ -16,3 +16,9 @@ A Docker image for Python development.
 
 * pip=7.1.2
 * tox
+
+## Installed libraries
+
+libxml2
+libxmlsec
+libjpeg
