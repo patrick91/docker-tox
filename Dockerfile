@@ -4,7 +4,8 @@ COPY install.sh /install.sh
 
 RUN sudo apt-get update
 RUN sudo apt-get install libjpeg-dev curl git-core build-essential \
-    python-pip make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev -y
+    python-pip make build-essential libssl-dev zlib1g-dev libbz2-dev \
+    libreadline-dev libsqlite3-dev libxmlsec1-dev libxmlsec1-openssl pkg-config -y
 
 RUN /bin/bash /install.sh && rm /install.sh
 
