@@ -8,7 +8,7 @@ RUN apt-get install libjpeg-dev curl git-core build-essential \
     python2.7-dev python3.4-dev \
     libreadline-dev libsqlite3-dev libpq-dev \
     libxmlsec1-dev libxmlsec1-openssl pkg-config \
-    libffi-dev -y
+    libffi-dev libcairo2 -y
 
 RUN /bin/bash /install.sh && rm /install.sh
 
